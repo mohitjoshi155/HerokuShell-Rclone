@@ -26,6 +26,21 @@
     "buildpacks": [
       {
         "url": "heroku/nodejs"
-      }
-    ]
-  }
+      },
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+    },
+    {
+      "url": "https://github.com/magneto261290/megatools-heroku-buildpack"
+    }
+  ]
+}
